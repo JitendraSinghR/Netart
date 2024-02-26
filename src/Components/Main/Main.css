@@ -1,0 +1,58 @@
+#container {
+  max-width: 100%;
+  margin: 0 20px;
+  background-image: linear-gradient(to bottom, #ffffff, #98ac57);
+}
+
+#award-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#trophy-container img {
+  width: 500px;
+  height: 700px;
+  padding: auto;
+}
+
+#award-details {
+  flex: 1;
+  padding: 0 20px;
+}
+#hr {
+  color: red;
+}
+
+#saving-section {
+  text-align: center;
+  margin-top: 20px;
+}
+#prize {
+  width: 100%;
+}
+
+#tools {
+  width: 90%;
+}
+
+#box {
+    max-width: 100%;
+    background-color: red;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+@media screen and (max-width: 768px) {
+  #award-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #trophy-container {
+    margin-bottom: 20px;
+  }
+}

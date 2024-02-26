@@ -1,0 +1,11 @@
+#coontainer {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#head {
+  width: 600px;
+  height: 140px;
+  margin-left: 90px;
+}
